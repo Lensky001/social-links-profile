@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#hover:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+}
+
+@font-face {
+  font-family: Lensky;
+  src: url(../fonts/OFL.txt), url(../fonts/Inter-VariableFont_slnt\wght.ttf),
+    url(../fonts/static/Inter-Bold.ttf), url(../fonts/static/Inter-Regular.ttf), url(../fonts/static/Inter-SemiBold.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: Lensky;
+}
